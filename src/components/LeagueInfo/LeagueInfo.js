@@ -17,7 +17,11 @@ const LeagueInfo = () => {
             .then(data => setLeagueInfo(data.leagues[0]))
     }, [idLeague]);
 
-    const {strBanner, strLogo, strLeague, intFormedYear, strCountry, strSport, strGender, strDescriptionEN, strFacebook, strTwitter, strYoutube } = leagueInfo;
+    const {
+        strBanner, strLogo, strLeague, intFormedYear,
+        strCountry, strSport, strGender, strDescriptionEN,
+        strFacebook, strTwitter, strYoutube
+    } = leagueInfo;
     const otherLeagueInfo = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore, minima delectus id harum voluptatibus. Molestias, veritatis recusandae quia error illum culpa iusto repudiandae vel assumenda, laudantium eligendi dolor eum? Perspiciatis, ratione excepturi at tempora est voluptate veniam iusto quos atque cupiditate, doloribus similique vitae pariatur hic soluta iste quaerat quis harum numquam aut saepe? Sequi dolorum vitae maiores quaerat facere ipsa tenetur ducimus omnis ut corrupti alias, iste suscipit esse quae itaque id minus tempore libero dolorem dolores amet sint similique.';
     return (
         <div>

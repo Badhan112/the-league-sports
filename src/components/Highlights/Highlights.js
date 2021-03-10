@@ -2,8 +2,8 @@ import React from 'react';
 
 const Highlights = () => {
     return (
-        <div>
-            <h1>Highlight</h1>
+        <div style={{textAlign: 'center'}}>
+            <h1>New Highlights Coming Soon</h1>
         </div>
     );
 };

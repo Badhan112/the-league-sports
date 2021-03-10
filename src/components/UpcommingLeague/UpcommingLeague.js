@@ -2,8 +2,8 @@ import React from 'react';
 
 const UpcommingLeague = () => {
     return (
-        <div>
-            <h1>upcommingLeague</h1>
+        <div style={{textAlign: 'center'}}>
+            <h1>All Leagues are postponed due to the Covid-19 Situation</h1>
         </div>
     );
 };
