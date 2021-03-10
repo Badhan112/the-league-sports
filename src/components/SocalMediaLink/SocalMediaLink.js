@@ -27,10 +27,10 @@ const SocalMediaLink = ({type, source}) => {
         borderRadius: '50%',
         marginLeft: '15px',
     }
-    
+
     return (
         <div style={iconStyle}>
-            <a href={`https://${source}`} ><FontAwesomeIcon icon={socalIcon} style={{fontSize: '30px', color: 'white'}} /></a>
+            <a href={`https://${source}`} target='_blank' rel='noreferrer' ><FontAwesomeIcon icon={socalIcon} style={{fontSize: '30px', color: 'white'}} /></a>
         </div>
     );
 };

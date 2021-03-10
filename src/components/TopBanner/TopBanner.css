@@ -1,6 +1,6 @@
 .banner-area{
     height: 15rem;
-    background: url("../../images/banner.png"), rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
