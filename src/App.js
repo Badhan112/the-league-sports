@@ -23,7 +23,7 @@ function App() {
     <LeaguesContext.Provider value={allLeagues}>
       <Router>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand as={Link} to='/'><h2>Sports Mania</h2></Navbar.Brand>
+          <Navbar.Brand as={Link} to='/'><h2>The League Sports</h2></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

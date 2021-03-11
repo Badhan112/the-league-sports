@@ -13,10 +13,17 @@ const League = ({ idLeague }) => {
             .then(data => setLeagueInfo(data.leagues[0]))
     }, [idLeague]);
 
-    const { strBadge, strLeague, strSport } = leagueInfo;
+    const { strBadge, strLeague, strSport, strPoster } = leagueInfo;
+    const cardStyle = {
+        background: `url(${strPoster}), rgba(0, 0, 0, 0.7)`,
+        backgroundBlendMode: 'overlay',
+        boxShadow: '5px 5px 5px gray',
+        color: 'white',
+    }
+
     return (
         <Col lg={4} md={6} sm={12} className="single-league-area">
-            <Card className="shadow">
+            <Card style={cardStyle}>
                 <Card.Img as={Image} fluid variant="top" src={strBadge} className="league-badge"/>
                 <Card.Body>
                     <Card.Title>{strLeague}</Card.Title>

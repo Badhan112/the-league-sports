@@ -8,9 +8,9 @@ const Home = () => {
     const allLeagues = useContext(LeaguesContext);
 
     return (
-        <div>
+        <div style={{backgroundColor: 'white'}}>
             <TopBanner>
-                <h1>Sports Mania</h1>
+                <h1>The League Sports</h1>
             </TopBanner>
             <Container>
                 <Row>
